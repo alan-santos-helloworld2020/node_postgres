@@ -12,17 +12,20 @@ Content-Type: application/json
 ###
 GET http://localhost:3000/
 Content-Type: application/json
+Authorization: Bearer token
 
 {
+
 
 }
 ###
 POST http://localhost:3000/
 Content-Type: application/json
+Authorization: Bearer token
 
 {
         
-    "nome": "fulano de tal teste",
+    "nome": "fulano de tal token",
     "telefone": "(00) 00000-0000",
     "email": "fulanodetal@gmail.com",
     "cep": "0000-000"
@@ -31,10 +34,11 @@ Content-Type: application/json
 ###
 PUT http://localhost:3000/5
 Content-Type: application/json
+Authorization: Bearer token
 
 {
         
-    "nome": "fulano de tal",
+    "nome": "fulano de tal pt token",
     "telefone": "(00) 00000-0000",
     "email": "fulanodetal@gmail.com",
     "cep": "0000-000"
@@ -42,9 +46,11 @@ Content-Type: application/json
 }
 
 ###
-DELETE  http://localhost:3000/2
+DELETE  http://localhost:3000/3
 Content-Type: application/json
+Authorization: Bearer token
 
 {
+
 
 }
