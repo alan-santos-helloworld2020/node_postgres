@@ -1,0 +1,38 @@
+GET http://localhost:3000/
+Content-Type: application/json
+
+{
+
+}
+###
+POST http://localhost:3000/
+Content-Type: application/json
+
+{
+        
+    "nome": "fulano de tal",
+    "telefone": "(00) 00000-0000",
+    "email": "fulanodetal@gmail.com",
+    "cep": "0000-000"
+
+}
+###
+PUT http://localhost:3000/5
+Content-Type: application/json
+
+{
+        
+    "nome": "fulano de tal",
+    "telefone": "(00) 00000-0000",
+    "email": "fulanodetal@gmail.com",
+    "cep": "0000-000"
+
+}
+
+###
+DELETE  http://localhost:3000/2
+Content-Type: application/json
+
+{
+
+}
